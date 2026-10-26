@@ -35,7 +35,7 @@ function AnimatedCounter({ target, suffix = '' }: { target: string; suffix?: str
 
 export function StatsSection() {
   return (
-    <section className="py-20 border-y border-white/6 bg-[#0a0a0a]" aria-label="Stats">
+    <section className="py-10 md:py-12 border-y border-white/6 bg-[#0a0a0a]" aria-label="Stats">
       <div className="max-w-5xl mx-auto px-5 md:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {STATS.map((stat, i) => (

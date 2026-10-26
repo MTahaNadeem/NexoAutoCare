@@ -12,7 +12,7 @@ export function GalleryPreview() {
   const preview = GALLERY_ITEMS.slice(0, 3);
 
   return (
-    <section className="py-28 bg-[#0d0d0d] border-t border-white/6" aria-label="Gallery preview">
+    <section className="py-16 md:py-20 bg-[#0d0d0d] border-t border-white/6" aria-label="Gallery preview">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <SectionHeader
           eyebrow="Before & After"
@@ -45,7 +45,7 @@ export function GalleryPreview() {
           ))}
         </StaggerGrid>
 
-        <div className="mt-10 text-center">
+        <div className="mt-8 text-center">
           <Link
             href="/gallery"
             className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-blue-400 font-medium tracking-wide transition-colors duration-200"

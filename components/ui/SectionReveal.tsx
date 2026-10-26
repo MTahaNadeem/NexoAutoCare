@@ -107,7 +107,7 @@ interface SectionHeaderProps {
 
 export function SectionHeader({ eyebrow, title, subtitle, centered = true, className = '' }: SectionHeaderProps) {
   return (
-    <div className={`mb-16 ${centered ? 'text-center' : ''} ${className}`}>
+    <div className={`mb-10 md:mb-12 ${centered ? 'text-center' : ''} ${className}`}>
       {eyebrow && <SectionReveal><Eyebrow>{eyebrow}</Eyebrow></SectionReveal>}
       <SectionReveal delay={0.08}>
         <h2 className="font-display text-4xl md:text-5xl lg:text-6xl tracking-wide text-white leading-none">
@@ -116,7 +116,7 @@ export function SectionHeader({ eyebrow, title, subtitle, centered = true, class
       </SectionReveal>
       {subtitle && (
         <SectionReveal delay={0.18}>
-          <p className="mt-5 text-gray-500 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
+          <p className="mt-3.5 text-gray-500 text-sm md:text-base max-w-xl mx-auto leading-relaxed">
             {subtitle}
           </p>
         </SectionReveal>

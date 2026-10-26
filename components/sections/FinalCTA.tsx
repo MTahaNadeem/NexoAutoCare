@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 export function FinalCTA() {
   return (
-    <section className="relative py-28 overflow-hidden bg-[#0a0a0a] border-t border-white/6" aria-label="Final call to action">
+    <section className="relative py-18 md:py-22 overflow-hidden bg-[#0a0a0a] border-t border-white/6" aria-label="Final call to action">
       {/* Top line glow */}
       <div
         className="absolute top-0 left-1/2 -translate-x-1/2 w-[min(700px,100%)] h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent opacity-60"
@@ -26,7 +26,7 @@ export function FinalCTA() {
           </h2>
         </SectionReveal>
         <SectionReveal delay={0.1}>
-          <p className="text-sm text-gray-500 mb-12 tracking-wide">
+          <p className="text-sm text-gray-500 mb-8 md:mb-10 tracking-wide">
             Book your appointment — spots are limited by design.
           </p>
         </SectionReveal>

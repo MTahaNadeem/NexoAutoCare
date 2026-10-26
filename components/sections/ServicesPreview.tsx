@@ -9,7 +9,7 @@ import { fadeUp } from '@/lib/animations';
 
 export function ServicesPreview() {
   return (
-    <section className="py-28 bg-[#0d0d0d] border-t border-white/6" aria-label="Services preview">
+    <section className="py-16 md:py-20 bg-[#0d0d0d] border-t border-white/6" aria-label="Services preview">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <SectionHeader
           eyebrow="What We Do"
@@ -26,7 +26,7 @@ export function ServicesPreview() {
           ))}
         </StaggerGrid>
 
-        <div className="mt-12 text-center">
+        <div className="mt-8 md:mt-10 text-center">
           <Link
             href="/services"
             className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-blue-400 font-medium tracking-wide transition-colors duration-200"

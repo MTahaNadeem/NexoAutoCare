@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 export function TestimonialsSection() {
   return (
-    <section className="py-28 bg-[#0a0a0a]" aria-label="Testimonials">
+    <section className="py-18 md:py-22 bg-[#0a0a0a]" aria-label="Testimonials">
       <div className="max-w-6xl mx-auto px-5 md:px-8">
         <SectionHeader
           eyebrow="Client Reviews"
@@ -22,7 +22,7 @@ export function TestimonialsSection() {
               key={t.id}
               variants={fadeUp}
               whileHover={{ y: -4, borderColor: 'rgba(59,130,246,0.3)' }}
-              className="flex flex-col gap-4 p-7 bg-[#111] border border-white/8 rounded-xl transition-colors duration-300"
+              className="flex flex-col gap-4 p-6 md:p-7 bg-[#111] border border-white/8 rounded-xl transition-colors duration-300"
             >
               <div className="flex gap-1">
                 {Array.from({ length: t.rating }).map((_, i) => (
