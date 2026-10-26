@@ -1,7 +1,7 @@
 import type { Service, GalleryItem, Testimonial, NavLink, Stat } from '@/types';
 
-export const PHONE = '+92331-9653654';
-export const PHONE_CLEAN = '+923319653654';
+export const PHONE = '+92 319 6623057';
+export const PHONE_CLEAN = '+923196623057';
 export const WHATSAPP_BASE = `https://wa.me/${PHONE_CLEAN}`;
 export const CITY = 'Faisalabad, Pakistan';
 export const BRAND = 'NexoAutoCare';
