@@ -19,22 +19,22 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'NexoAutoCare — Premium Auto Detailing in Faisalabad',
+    default: 'NexoAutoCare — Premium Mobile Auto Detailing in Faisalabad',
     template: '%s | NexoAutoCare',
   },
   description:
-    "Faisalabad's premier auto detailing studio. Paint correction, ceramic coating, interior revival — done right, by appointment only.",
+    "Faisalabad's premier mobile auto detailing service. We come to your doorstep — paint correction, ceramic coating, and interior revival, by appointment only.",
   keywords: [
-    'auto detailing Faisalabad',
-    'car detailing Pakistan',
-    'ceramic coating Faisalabad',
+    'mobile auto detailing Faisalabad',
+    'doorstep car detailing Pakistan',
+    'mobile ceramic coating Faisalabad',
     'paint correction Faisalabad',
-    'car wash Faisalabad',
+    'car detailing at home Faisalabad',
     'NexoAutoCare',
   ],
   openGraph: {
-    title: 'NexoAutoCare — Premium Auto Detailing in Faisalabad',
-    description: "Faisalabad's premier auto detailing studio.",
+    title: 'NexoAutoCare — Premium Mobile Auto Detailing in Faisalabad',
+    description: "Faisalabad's premier mobile auto detailing service — we come to your doorstep.",
     type: 'website',
     locale: 'en_PK',
   },

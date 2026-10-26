@@ -27,7 +27,7 @@ export function FinalCTA() {
         </SectionReveal>
         <SectionReveal delay={0.1}>
           <p className="text-sm text-gray-500 mb-8 md:mb-10 tracking-wide">
-            Book your appointment — spots are limited by design.
+            Book your appointment — we&apos;ll come directly to your home or office. Spots are limited by design.
           </p>
         </SectionReveal>
         <SectionReveal delay={0.2}>

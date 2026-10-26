@@ -14,7 +14,7 @@ export function ServicesPreview() {
         <SectionHeader
           eyebrow="What We Do"
           title="The Full Spectrum"
-          subtitle="Every service performed with the same uncompromising standard — professional grade, every time."
+          subtitle="Every service performed right at your doorstep with the same uncompromising standard — professional grade, every time."
         />
 
         <StaggerGrid

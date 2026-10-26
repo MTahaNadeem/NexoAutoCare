@@ -42,7 +42,7 @@ export function Footer() {
               NEXO<span className="text-blue-400">AUTO</span>CARE
             </Link>
             <p className="text-sm text-gray-500 leading-relaxed max-w-xs">
-              Premium auto detailing in Faisalabad. Appointment-only. No shortcuts.
+              Premium mobile auto detailing in Faisalabad. We come to you. Appointment-only. No shortcuts.
             </p>
           </div>
 
@@ -78,7 +78,10 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3 text-sm text-gray-500">
                 <MapPin size={14} className="mt-0.5 shrink-0" />
-                {CITY}
+                <span>
+                  Serving all of Faisalabad &amp; nearby areas<br />
+                  <span className="text-gray-600 text-xs">Mobile Service — We Come To You</span>
+                </span>
               </li>
               <li className="flex items-start gap-3 text-sm text-gray-500">
                 <Clock size={14} className="mt-0.5 shrink-0" />
@@ -128,7 +131,7 @@ export function Footer() {
             © {year} {BRAND}. All rights reserved.
           </p>
           <p className="text-xs text-gray-600 tracking-wide">
-            Premium Auto Detailing · {CITY}
+            Premium Mobile Auto Detailing · {CITY}
           </p>
         </div>
 

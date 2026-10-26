@@ -17,8 +17,8 @@ const TRUST_POINTS = [
   },
   {
     num: '03',
-    title: 'Appointment-only — no rush jobs',
-    desc: "We give each vehicle the time it demands. You can't deliver quality on a conveyor belt.",
+    title: 'We come to you — 100% mobile',
+    desc: 'No traffic or waiting rooms. Our fully equipped mobile unit brings professional water, power, and detailing gear directly to your home or office.',
   },
   {
     num: '04',

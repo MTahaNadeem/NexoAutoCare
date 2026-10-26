@@ -7,7 +7,7 @@ import { FinalCTA } from '@/components/sections/FinalCTA';
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Full range of premium auto detailing services in Faisalabad — paint correction, ceramic coating, interior detailing, engine bay cleaning, and more.',
+    'Full range of premium mobile auto detailing services in Faisalabad — we come to you with paint correction, ceramic coating, interior detailing, engine bay cleaning, and more.',
 };
 
 export default function ServicesPage() {
@@ -16,9 +16,9 @@ export default function ServicesPage() {
       {/* Page header */}
       <section className="pt-36 pb-20 px-5 md:px-8 max-w-7xl mx-auto">
         <SectionHeader
-          eyebrow="Premium Services"
+          eyebrow="Premium Mobile Services"
           title="Every Service. Done Right."
-          subtitle="We don't offer packages designed to upsell — we offer services designed to deliver exactly what your car needs."
+          subtitle="Professional detailing brought straight to your doorstep. We don't offer rushed packages — we deliver precision care right at your home or office."
           centered={false}
         />
       </section>

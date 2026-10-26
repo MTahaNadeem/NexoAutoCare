@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden" aria-hidden="true">
         <Image
           src="/images/hero_car.jpg"
-          alt="Luxury auto detailing workshop"
+          alt="Luxury mobile auto detailing service"
           fill
           priority
           sizes="100vw"
@@ -38,8 +38,8 @@ export function HeroSection() {
       >
         {/* Eyebrow */}
         <motion.div variants={fadeUp}>
-          <span className="inline-block text-[0.68rem] font-semibold tracking-[0.22em] uppercase text-blue-400 mb-4 px-3 py-1.5 border border-blue-500/30 rounded-full bg-blue-500/6 backdrop-blur-sm">
-            {CITY}&apos;s Premier Detailing Studio
+          <span className="inline-block text-[0.68rem] font-semibold tracking-[0.22em] uppercase text-blue-400 mb-4 px-3.5 py-1.5 border border-blue-500/30 rounded-full bg-blue-500/6 backdrop-blur-sm">
+            We Come To You · Faisalabad&apos;s Premier Mobile Detailing
           </span>
         </motion.div>
 
@@ -58,7 +58,7 @@ export function HeroSection() {
           variants={fadeUp}
           className="text-[clamp(0.9rem,2vw,1.08rem)] font-light text-gray-400 tracking-wide max-w-xl mx-auto mb-8 leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]"
         >
-          Precision detailing for those who understand the difference.
+          Precision detailing at your doorstep.
           <br className="hidden sm:block" />
           Appointment-only. No shortcuts. No compromises.
         </motion.p>

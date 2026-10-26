@@ -18,7 +18,7 @@ export const STATS: Stat[] = [
   { value: '500+', label: 'Cars Detailed' },
   { value: '4.9★', label: 'Average Rating' },
   { value: '6+', label: 'Years Experience' },
-  { value: '100%', label: 'Appointment-Only' },
+  { value: '100%', label: 'At Your Doorstep' },
 ];
 
 export const SERVICES: Service[] = [
@@ -151,20 +151,20 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Bilal Raza',
     vehicle: 'Honda Civic 2022',
     rating: 5,
-    text: 'Took my Civic in for paint correction and a single-stage ceramic coat. The finish looks better than when I drove it off the lot. These guys don\'t cut corners.',
+    text: 'Booked NexoAutoCare to come to my home for paint correction and a single-stage ceramic coat. They arrived with their full mobile setup, and the finish looks better than when I drove it off the lot. These guys don\'t cut corners.',
   },
   {
     id: 't2',
     name: 'Asma Tariq',
     vehicle: 'Toyota Fortuner',
     rating: 5,
-    text: 'Interior was in a terrible state. Came out looking completely new. The attention to detail in every crevice was impressive — I didn\'t expect that level of thoroughness.',
+    text: 'Interior was in a terrible state. They detailed it right in my driveway, and it came out looking completely new. The attention to detail in every crevice was impressive — I didn\'t expect that level of thoroughness at home.',
   },
   {
     id: 't3',
     name: 'Usman Khalid',
     vehicle: 'Mercedes C-Class',
     rating: 5,
-    text: 'Worth every rupee. Booked by appointment, they were on time, communicated throughout, and the result was exactly what was promised. Rare in Faisalabad.',
+    text: 'Worth every rupee. Booked an appointment, they arrived at my home on time, communicated throughout, and the result was exactly what was promised. Rare in Faisalabad.',
   },
 ];

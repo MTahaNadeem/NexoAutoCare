@@ -6,7 +6,7 @@ import { TrustPoints } from '@/components/sections/TrustPoints';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'About NexoAutoCare — premium auto detailing studio in Faisalabad. Our story, our standard, and why we do things differently.',
+    'About NexoAutoCare — premium mobile auto detailing service in Faisalabad. We bring our fully equipped setup directly to your doorstep.',
 };
 
 export default function AboutPage() {
@@ -36,13 +36,13 @@ export default function AboutPage() {
               still in the trim gaps. That isn&apos;t detailing — that&apos;s a wash with a markup.
             </p>
             <p>
-              Every vehicle that comes through our bay gets a proper inspection first. We identify
+              Every vehicle we detail gets a thorough inspection right in your driveway first. We identify
               the paint condition, the specific defects, the interior material types — and we
               build a plan before we start. Not a menu, a plan.
             </p>
             <p>
-              We operate appointment-only for one simple reason: rushed work is bad work. When
-              you book with us, that day belongs to your car.
+              We operate appointment-only on-site for one simple reason: rushed work is bad work. When
+              you book with us, that day belongs to your car — right at your home or office.
             </p>
           </div>
         </SectionReveal>

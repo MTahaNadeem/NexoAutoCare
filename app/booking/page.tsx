@@ -6,7 +6,7 @@ import { PHONE, PHONE_CLEAN, WHATSAPP_BASE, CITY } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Book an Appointment',
   description:
-    'Book your auto detailing appointment with NexoAutoCare in Faisalabad. Appointment-only — reserve via WhatsApp.',
+    'Book your mobile auto detailing appointment with NexoAutoCare in Faisalabad. We come directly to your doorstep — reserve via WhatsApp.',
 };
 
 function WhatsAppIcon({ className = 'w-5 h-5' }: { className?: string }) {
@@ -19,7 +19,7 @@ function WhatsAppIcon({ className = 'w-5 h-5' }: { className?: string }) {
 
 export default function BookingPage() {
   const cleanDigits = PHONE_CLEAN.replace(/[^0-9]/g, '');
-  const defaultBookingMessage = "Hi, I'd like to book an appointment with NexoAutoCare.";
+  const defaultBookingMessage = "Hi, I'd like to book a mobile detailing appointment with NexoAutoCare.";
   const whatsappBookingUrl = `https://wa.me/${cleanDigits}?text=${encodeURIComponent(defaultBookingMessage)}`;
 
   return (
@@ -28,7 +28,7 @@ export default function BookingPage() {
         <SectionHeader
           eyebrow="Book an Appointment"
           title="Reserve Your Slot."
-          subtitle="We take on a limited number of bookings per week to ensure every vehicle gets the time it deserves."
+          subtitle="We bring our fully equipped mobile detailing unit directly to your home or office. Spots are limited by design."
           centered={true}
         />
 
@@ -45,7 +45,7 @@ export default function BookingPage() {
               <span>Book via WhatsApp</span>
             </a>
             <p className="mt-4 text-xs text-gray-500 tracking-wide">
-              Direct connection to our detailing bay · Fast response
+              Direct connection to our mobile detailing team · Fast response
             </p>
           </div>
         </SectionReveal>
@@ -57,7 +57,7 @@ export default function BookingPage() {
           {/* Contact Directly Card */}
           <SectionReveal delay={0.2}>
             <div className="h-full p-6 md:p-8 bg-[#111] border border-white/8 rounded-xl space-y-5">
-              <h3 className="font-display text-xl tracking-wide text-white">Contact Directly</h3>
+              <h3 className="font-display text-xl tracking-wide text-white">Service &amp; Contact</h3>
 
               <a
                 href={`tel:${PHONE_CLEAN}`}
@@ -85,7 +85,10 @@ export default function BookingPage() {
                 <span className="w-9 h-9 rounded-lg bg-white/5 border border-white/8 flex items-center justify-center shrink-0 mt-0.5">
                   <MapPin size={14} />
                 </span>
-                {CITY}
+                <span>
+                  Serving all of Faisalabad &amp; nearby areas<br />
+                  <span className="text-blue-400/80 text-xs font-medium">100% Mobile Service — We Come To You</span>
+                </span>
               </div>
 
               <div className="flex items-start gap-3 text-sm text-gray-500">
@@ -109,10 +112,10 @@ export default function BookingPage() {
               </h3>
               <ul className="space-y-4">
                 {[
-                  'We confirm your appointment within 2 hours',
-                  'Bring your vehicle at the agreed time — we start on schedule',
-                  'Estimated duration communicated in advance',
-                  'Final inspection done with you before handover',
+                  'We confirm your appointment and location within 2 hours',
+                  'We arrive at your doorstep on schedule with our full mobile setup',
+                  'Self-contained setup — we bring our own power, water, and pro products',
+                  'Final inspection done with you at your premises before completion',
                 ].map((point) => (
                   <li key={point} className="flex items-start gap-3 text-sm text-gray-400">
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-400/70 mt-2 shrink-0" />

@@ -7,9 +7,9 @@ import { TestimonialsSection } from '@/components/sections/TestimonialsSection';
 import { FinalCTA } from '@/components/sections/FinalCTA';
 
 export const metadata: Metadata = {
-  title: 'NexoAutoCare — Premium Auto Detailing in Faisalabad',
+  title: 'NexoAutoCare — Premium Mobile Auto Detailing in Faisalabad',
   description:
-    "Faisalabad's premier auto detailing studio. Paint correction, ceramic coating, interior revival — done right, by appointment only.",
+    "Faisalabad's premier mobile auto detailing service. We bring the full setup to your doorstep — paint correction, ceramic coating, interior revival, by appointment only.",
 };
 
 export default function HomePage() {
