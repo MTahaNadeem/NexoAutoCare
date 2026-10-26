@@ -140,7 +140,7 @@ export function Footer() {
           <p className="text-[11px] text-gray-600 tracking-wider">
             Designed &amp; Built by{' '}
             <a
-              href="https://fourfrontlab.vercel.app"
+              href="https://fourfrontlab.tech"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-blue-400 transition-colors duration-200"
